@@ -1,0 +1,743 @@
+* commit c1a06324be8e7c2cb18728575cb3c6312874bcdb
+| Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| Date:   Sun Jul 28 22:25:55 2024 +0300
+| 
+|     adding dry.pdf
+| 
+|  dry.pdf | Bin 0 -> 115894 bytes
+|  1 file changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit df1f4a89bd30c668edca4337343cd96e66174f6c
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Sun Jul 28 19:28:41 2024 +0300
+| 
+|     Comment polishing
+| 
+|  SortedList.h    | 29 ++++++++++++++++++++++-------
+|  TaskManager.cpp | 30 +++++++++++++++++++++---------
+|  TaskManager.h   |  2 +-
+|  3 files changed, 44 insertions(+), 17 deletions(-)
+| 
+* commit b4f4e72d035042dfd1678d61dc688212cb2f46eb
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Sat Jul 27 01:12:04 2024 +0300
+| 
+|     FINAL
+| 
+|  TaskManager.cpp | 4 ++++
+|  1 file changed, 4 insertions(+)
+| 
+* commit eca6e0180fdb46dd5335fae543029cfdad220ee7
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Sat Jul 27 01:03:23 2024 +0300
+| 
+|     polishing
+| 
+|  SortedList.h    |  17 +-
+|  TaskManager.cpp |   4 +-
+|  main.cpp        | 639 ++++++++++++++++++++++++++++++++++++++++++++----------
+|  3 files changed, 537 insertions(+), 123 deletions(-)
+| 
+* commit b0f9e37c5d304607bdad60a7abba4a11b69f84d2
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Sat Jul 27 00:01:31 2024 +0300
+| 
+|     polishing
+| 
+|  TaskManager.cpp | 3 +--
+|  1 file changed, 1 insertion(+), 2 deletions(-)
+| 
+* commit 505b0b68cc408c6623d79162c95f9c0e9ef9f909
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Fri Jul 26 23:59:12 2024 +0300
+| 
+|     polishing
+| 
+|  SortedList.h    | 46 +++++-----------------------------------------
+|  TaskManager.cpp | 13 ++++++-------
+|  TaskManager.h   |  8 ++++----
+|  3 files changed, 15 insertions(+), 52 deletions(-)
+| 
+* commit 26df70bacae89e90fec974bfd0a6d383326e891d
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Fri Jul 26 23:13:53 2024 +0300
+| 
+|     WTF 4hr debug :(
+| 
+|  SortedList.h | 47 +++++++++++++++++++++++++++++------------------
+|  1 file changed, 29 insertions(+), 18 deletions(-)
+|   
+*   commit ed252fdb58d593f2a65fda0ce12043a508822aff
+|\  Merge: 253410e 501791d
+| | Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| | Date:   Fri Jul 26 22:36:41 2024 +0300
+| | 
+| |     Merge remote-tracking branch 'origin/main'
+| | 
+* | commit 253410ee66fee3897aecc354ded03feb0e708a7e
+| | Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| | Date:   Fri Jul 26 22:36:26 2024 +0300
+| | 
+| |     fix insert() logic
+| | 
+| |  TaskManager.cpp | 3 ---
+| |  1 file changed, 3 deletions(-)
+| |   
+| | * commit 4c8264da110daf9ec192004a9c1fc05a0117c0e0
+| |/| Merge: 501791d 8924807
+| | | Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| | | Date:   Sat Jul 27 13:03:16 2024 +0300
+| | | 
+| | |     WIP on main: 501791d unused node delete
+| | | 
+| | * commit 89248074f1fc56fa1e202c299bcd93b6bcc58d9f
+| |/  Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| |   Date:   Sat Jul 27 13:03:16 2024 +0300
+| |   
+| |       index on main: 501791d unused node delete
+| | 
+| * commit 501791d040046339d1232489e4e1f87ec71f5697
+|/  Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+|   Date:   Fri Jul 26 19:46:41 2024 +0300
+|   
+|       unused node delete
+|   
+|    SortedList.h | 1 -
+|    1 file changed, 1 deletion(-)
+| 
+* commit 88c81639d0b12a8b14e0edd4975063db0edda79e
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Fri Jul 26 19:14:55 2024 +0300
+| 
+|     fix insert() logic
+| 
+|  SortedList.h    | 32 ++++++++++++++++++--------------
+|  TaskManager.cpp |  3 +--
+|  2 files changed, 19 insertions(+), 16 deletions(-)
+| 
+* commit 97d685f5af641264ab78e20a6b056a90a63a5cbf
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Fri Jul 26 18:34:09 2024 +0300
+| 
+|     fix apply() usage
+| 
+|  SortedList.h | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit 010a871ab086d7c179eca57646bfb31e3f3993bf
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Fri Jul 26 18:32:49 2024 +0300
+| 
+|     fix apply() usage
+| 
+|  SortedList.h | 25 +------------------------
+|  1 file changed, 1 insertion(+), 24 deletions(-)
+| 
+* commit 570de04f50f7291bf2fd46eefe1feb128a04e460
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Fri Jul 26 18:30:39 2024 +0300
+| 
+|     fix apply() usage
+| 
+|  SortedList.h    | 2 +-
+|  TaskManager.cpp | 5 -----
+|  2 files changed, 1 insertion(+), 6 deletions(-)
+| 
+* commit 733a7d851d9cc75816c18de636d75e6fbee20756
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Fri Jul 26 18:24:51 2024 +0300
+| 
+|     fix apply() usage
+| 
+|  SortedList.h    |  1 +
+|  TaskManager.cpp | 16 ++++++++--------
+|  2 files changed, 9 insertions(+), 8 deletions(-)
+| 
+* commit 59df2d2aa903055bd7892b4a25da9ec72e9e3db3
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Fri Jul 26 18:10:17 2024 +0300
+| 
+|     fix remove(end iter)
+| 
+|  SortedList.h | 4 ++++
+|  1 file changed, 4 insertions(+)
+|   
+*   commit 96ea0ecfa443a00150b003b4d77732ee7b542bf7
+|\  Merge: 27edc6c 7d5113d
+| | Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| | Date:   Fri Jul 26 18:02:51 2024 +0300
+| | 
+| |     Merge remote-tracking branch 'origin/main'
+| | 
+| * commit 7d5113d829781fb977cff88d639f09561b344214
+| | Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| | Date:   Fri Jul 26 17:46:54 2024 +0300
+| | 
+| |     Add gitignore
+| | 
+| |  .gitignore | 6 ++++++
+| |  1 file changed, 6 insertions(+)
+| | 
+* | commit 27edc6cd61adf86e113a9ad5283184462d16cf9e
+|/  Author: Eitan <67269901+EitanX@users.noreply.github.com>
+|   Date:   Fri Jul 26 18:02:37 2024 +0300
+|   
+|       fix ++iter
+|   
+|    Person.h     | 2 +-
+|    SortedList.h | 2 +-
+|    2 files changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit fd4c42d177c449d6e8f0a98a070f86aea9def462
+| Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| Date:   Fri Jul 26 17:37:36 2024 +0300
+| 
+|     Comment deletion
+| 
+|  TaskManager.cpp | 106 ------------------------------------------------------
+|  1 file changed, 106 deletions(-)
+| 
+* commit 1ce5bcec8dbf7568b4beb860c0410bce9e5bdf2a
+| Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| Date:   Fri Jul 26 17:34:57 2024 +0300
+| 
+|     Comment
+| 
+|  TaskManager.cpp | 1 +
+|  1 file changed, 1 insertion(+)
+| 
+* commit d938f5c5bf9343251ad45528227467845362b3cb
+| Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| Date:   Fri Jul 26 17:34:22 2024 +0300
+| 
+|     implementing printAllEmployees
+| 
+|  TaskManager.cpp | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 9f01598140e630925be3bc5dbc0909454e799643
+| Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| Date:   Fri Jul 26 17:33:48 2024 +0300
+| 
+|     implementing printAllEmployees
+| 
+|  TaskManager.cpp | 89 +++++++++++++++++++++++++++++++------------------------
+|  1 file changed, 51 insertions(+), 38 deletions(-)
+|   
+*   commit a866cbfe2da93d5f3f1c596313f340ee9aa94eba
+|\  Merge: 2a07afb 26688e6
+| | Author: EitanX <eitan177771@gmail.com>
+| | Date:   Fri Jul 26 17:04:55 2024 +0300
+| | 
+| |     Merge remote-tracking branch 'origin/main'
+| | 
+| * commit 26688e63d8f01d04a55d3312c03d41d9ab18e85e
+| | Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| | Date:   Fri Jul 26 16:45:25 2024 +0300
+| | 
+| |     using only const it ( without static ) and reimplementing Ctor
+| | 
+| |  TaskManager.cpp | 6 ++++--
+| |  TaskManager.h   | 2 +-
+| |  2 files changed, 5 insertions(+), 3 deletions(-)
+| | 
+* | commit 2a07afbea20412685c8be1ae9dcbaeaf1adb478b
+|/  Author: EitanX <eitan177771@gmail.com>
+|   Date:   Fri Jul 26 17:04:42 2024 +0300
+|   
+|       TaskManager print functions
+|   
+|    SortedList.h    |   3 +
+|    TaskManager.cpp | 155 +++++++++++++++++++++++++++++++++++++++++++++++-----
+|    TaskManager.h   |   8 ++-
+|    3 files changed, 149 insertions(+), 17 deletions(-)
+| 
+* commit d58c290a82ade23592e17f74e60cd34a44536401
+| Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| Date:   Thu Jul 25 19:32:07 2024 +0300
+| 
+|     bad_alloc fix / and delete unused int
+| 
+|  SortedList.h    | 2 +-
+|  TaskManager.cpp | 2 +-
+|  2 files changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit 6f06caf20ca97e57c651940688a6cc445f6936f5
+| Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| Date:   Thu Jul 25 19:17:56 2024 +0300
+| 
+|     adding typmename
+| 
+|  SortedList.h | 12 ++++++------
+|  1 file changed, 6 insertions(+), 6 deletions(-)
+| 
+* commit 1d00ce2bdeb9a83135480aa00c366e23ba7f7e5f
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Thu Jul 25 18:25:51 2024 +0300
+| 
+|     trying printAllEmployees
+| 
+|  TaskManager.cpp | 17 +++++++++++++++--
+|  1 file changed, 15 insertions(+), 2 deletions(-)
+| 
+* commit 6ed35cd492fe518f930dc8a7774947b415f2b1b0
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Thu Jul 25 17:42:49 2024 +0300
+| 
+|     trying printAllEmployees
+| 
+|  SortedList.h    | 25 ++++++++++++++++++++++++-
+|  TaskManager.cpp | 24 ++++++++++++++++++++----
+|  2 files changed, 44 insertions(+), 5 deletions(-)
+| 
+* commit a2e7e746047fad92e2354a39b1cb7ef94d9a53d3
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Thu Jul 25 17:01:21 2024 +0300
+| 
+|     hope it works bumpPriorityByType
+| 
+|  SortedList.h | 2 ++
+|  1 file changed, 2 insertions(+)
+| 
+* commit c02b14cc73b98dca3de61aa8c5e39623244c4c1c
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Thu Jul 25 16:59:41 2024 +0300
+| 
+|     hope it works bumpPriorityByType
+| 
+|  SortedList.h    | 16 ++++++++--------
+|  TaskManager.cpp | 18 ++++++++++--------
+|  2 files changed, 18 insertions(+), 16 deletions(-)
+| 
+* commit 973b2852a34d3b1cbdb6fe2a6888a8cfdda5aac2
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Thu Jul 25 01:48:39 2024 +0300
+| 
+|     bruhhhhh i hate dis
+| 
+|  SortedList.h    | 41 +++++++++++++++++++++++++++--------------
+|  TaskManager.cpp | 17 +++++++++++++++++
+|  2 files changed, 44 insertions(+), 14 deletions(-)
+| 
+* commit f4aa5ace983d03d11f6248dcab9f622449b1c169
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Thu Jul 25 01:00:10 2024 +0300
+| 
+|     class ---> typename
+| 
+|  SortedList.h | 54 +++++++++++++++++++++++++++---------------------------
+|  1 file changed, 27 insertions(+), 27 deletions(-)
+| 
+* commit 67b625a418e9b41d1849cc6c88feeadf9479fff2
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Thu Jul 25 00:53:20 2024 +0300
+| 
+|     CMAKE KILLS PEOPLE
+| 
+|  SortedList.h | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 4156402ec0d43e85fcd7ea6fe84d9fd25f9e9a14
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Thu Jul 25 00:19:13 2024 +0300
+| 
+|     comment :(
+| 
+|  SortedList.h | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 147956ffd726c2fcc6170ccc47dbfeb869e8ad1d
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Thu Jul 25 00:16:23 2024 +0300
+| 
+|     comment
+| 
+|  SortedList.h | 3 ++-
+|  1 file changed, 2 insertions(+), 1 deletion(-)
+| 
+* commit b29484212d82485b064f2acbdb462508ddb91020
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Thu Jul 25 00:08:56 2024 +0300
+| 
+|     IDK
+| 
+|  SortedList.h | 14 +++++++-------
+|  1 file changed, 7 insertions(+), 7 deletions(-)
+| 
+* commit 7dae63615461e375eb5b02a8a5a5f8db272fe8bd
+| Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| Date:   Wed Jul 24 23:50:05 2024 +0300
+| 
+|     Implementing completeTask by priority
+| 
+|  TaskManager.cpp | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit e55474b0539a062cbf239f0ec762b2e6353a5969
+| Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| Date:   Wed Jul 24 23:15:30 2024 +0300
+| 
+|     Completetask
+| 
+|  SortedList.h    |  6 +++---
+|  TaskManager.cpp | 10 +++++++++-
+|  2 files changed, 12 insertions(+), 4 deletions(-)
+| 
+* commit 0fa49f1988dbd24c0812940d8fc2eea8c97ef84c
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Wed Jul 24 21:34:30 2024 +0300
+| 
+|     comment
+| 
+|  TaskManager.cpp | 6 +++---
+|  1 file changed, 3 insertions(+), 3 deletions(-)
+|   
+*   commit b09b84e19d48ea2be94e50d08a083921d33aea41
+|\  Merge: c9b4bd5 ccf8e43
+| | Author: EitanX <eitan177771@gmail.com>
+| | Date:   Wed Jul 24 20:42:10 2024 +0300
+| | 
+| |     Merge remote-tracking branch 'origin/main'
+| | 
+| * commit ccf8e43ef07b7527c7adf12b5ade60ae22a92376
+| | Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| | Date:   Wed Jul 24 20:40:59 2024 +0300
+| | 
+| |     fixing assignTask
+| | 
+| |  TaskManager.cpp | 9 +++++----
+| |  1 file changed, 5 insertions(+), 4 deletions(-)
+| | 
+* | commit c9b4bd5170141ac585f80a6deeac0a142be81855
+|/  Author: EitanX <eitan177771@gmail.com>
+|   Date:   Wed Jul 24 20:42:00 2024 +0300
+|   
+|       Generics
+|   
+|    SortedList.h | 10 +++++-----
+|    1 file changed, 5 insertions(+), 5 deletions(-)
+|   
+*   commit dea00d0104cd9eea12633df5d8888f887f79cce9
+|\  Merge: 17a74e6 211f6d2
+| | Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| | Date:   Wed Jul 24 20:32:14 2024 +0300
+| | 
+| |     Merge remote-tracking branch 'Matam-HW3/main'
+| | 
+| * commit 211f6d2c3f76c2e261a4cc0cbb419a243e6bc61b
+| | Author: EitanX <eitan177771@gmail.com>
+| | Date:   Wed Jul 24 20:22:30 2024 +0300
+| | 
+| |     Generics
+| | 
+| |  TaskManager.cpp | 5 +++++
+| |  TaskManager.h   | 3 ++-
+| |  2 files changed, 7 insertions(+), 1 deletion(-)
+| | 
+* | commit 17a74e6a1e7fd3e8a3d89cd89e9c5d6c1aa6fba9
+| | Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| | Date:   Wed Jul 24 20:32:03 2024 +0300
+| | 
+| |     Creating and implementing assignId to task
+| | 
+| |  TaskManager.cpp | 1 +
+| |  1 file changed, 1 insertion(+)
+| | 
+* | commit 16e062bb613361c4d61cac0db8186e8063a2c8b8
+| | Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| | Date:   Wed Jul 24 20:30:46 2024 +0300
+| | 
+| |     Creating and implementing assignId to task
+| | 
+| |  TaskManager.cpp | 9 ++++++---
+| |  TaskManager.h   | 3 ++-
+| |  2 files changed, 8 insertions(+), 4 deletions(-)
+| | 
+* | commit aa9057a568e1e35910e705d6df1f39d310f64fc9
+| | Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| | Date:   Wed Jul 24 20:24:41 2024 +0300
+| | 
+| |     Adding id to the task
+| | 
+| |  SortedList.h    |  8 ++++----
+| |  TaskManager.cpp | 14 ++++----------
+| |  2 files changed, 8 insertions(+), 14 deletions(-)
+| | 
+* | commit c33ce3f8b45615fb823cbdeaf33f078f16d8f302
+|\| Merge: a42cbb3 69418f5
+| | Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| | Date:   Wed Jul 24 19:40:30 2024 +0300
+| | 
+| |     Merge remote-tracking branch 'Matam-HW3/main'
+| |     
+| |     # Conflicts:
+| |     #       TaskManager.cpp
+| | 
+| * commit 69418f540b8cfc82bdff73ead62b729a47561c4e
+| | Author: EitanX <eitan177771@gmail.com>
+| | Date:   Wed Jul 24 19:38:24 2024 +0300
+| | 
+| |     Generics
+| | 
+| |  TaskManager.cpp | 25 ++++++++++++++++++++++---
+| |  TaskManager.h   |  9 +++++----
+| |  2 files changed, 27 insertions(+), 7 deletions(-)
+| | 
+* | commit a42cbb306b8a89f1f4b9012d191fb8b299fdb0e7
+|/  Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+|   Date:   Wed Jul 24 19:39:15 2024 +0300
+|   
+|       implementing assignTask!
+|   
+|    TaskManager.cpp | 2 +-
+|    1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit f2a1494b69d851236c260371698fabaca3ba77e9
+| Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| Date:   Wed Jul 24 19:14:10 2024 +0300
+| 
+|     implementing assignTask!
+| 
+|  TaskManager.cpp | 11 +++++++----
+|  TaskManager.h   |  2 +-
+|  2 files changed, 8 insertions(+), 5 deletions(-)
+| 
+* commit d410ec74db7396af84c3cce38f20bc7c13accadf
+| Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| Date:   Wed Jul 24 19:04:07 2024 +0300
+| 
+|     Assign Task
+| 
+|  TaskManager.cpp | 11 +++++++++++
+|  TaskManager.h   |  6 ++++--
+|  2 files changed, 15 insertions(+), 2 deletions(-)
+| 
+* commit 1dff752b66f0d19a78a3c60c28690f58d862c2c6
+| Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| Date:   Wed Jul 24 18:47:30 2024 +0300
+| 
+|     Creating TaskManager.cpp
+| 
+|  TaskManager.h | 1 +
+|  1 file changed, 1 insertion(+)
+|   
+*   commit 23eacc866f72ffd77aa14330e3f430e8141cb7bf
+|\  Merge: e49ac93 43f5881
+| | Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| | Date:   Wed Jul 24 18:47:18 2024 +0300
+| | 
+| |     Merge remote-tracking branch 'Matam-HW3/main'
+| | 
+| * commit 43f5881ad09dbfbe7ac7ff6c6d231c497011de94
+| | Author: EitanX <eitan177771@gmail.com>
+| | Date:   Wed Jul 24 18:40:24 2024 +0300
+| | 
+| |     Generics
+| | 
+| |  SortedList.h | 1 +
+| |  1 file changed, 1 insertion(+)
+| | 
+* | commit e49ac9380c448245110c048eaa676a77c094ac19
+|/  Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+|   Date:   Wed Jul 24 18:46:51 2024 +0300
+|   
+|       Creating TaskManager.cpp
+|   
+|    TaskManager.cpp | 11 +++++++++++
+|    1 file changed, 11 insertions(+)
+| 
+* commit aae11b93d41afd03280053aa18240535f73db743
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Wed Jul 24 18:15:05 2024 +0300
+| 
+|     Generics
+| 
+|  SortedList.h | 48 +++++++++++++++++++++++++++++++++++++++++++-----
+|  1 file changed, 43 insertions(+), 5 deletions(-)
+|   
+*   commit f5d8ad955e88472b26d178d860c5541e92d3469a
+|\  Merge: 7c9c101 9fdd178
+| | Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+| | Date:   Wed Jul 24 17:32:13 2024 +0300
+| | 
+| |     Merge remote-tracking branch 'Matam-HW3/main'
+| | 
+| * commit 9fdd1788f52bce8ca1e001e4623549a45a5c0e3e
+| | Author: EitanX <eitan177771@gmail.com>
+| | Date:   Wed Jul 24 17:30:21 2024 +0300
+| | 
+| |     Generics
+| | 
+| |  SortedList.h | 6 +++---
+| |  1 file changed, 3 insertions(+), 3 deletions(-)
+| | 
+* | commit 7c9c101180a1b2a85c7c0427b3bff3fce7af4de7
+|/  Author: Rawad Jahshan <rawadjahshan@campus.technion.ac.il>
+|   Date:   Wed Jul 24 17:31:55 2024 +0300
+|   
+|       Adding SortiedList:: to ipmlemention name
+|   
+|    SortedList.h | 6 +++---
+|    1 file changed, 3 insertions(+), 3 deletions(-)
+| 
+* commit 46cc04f93750caacf67f9b2022888d0b120f17b8
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Wed Jul 24 17:25:41 2024 +0300
+| 
+|     Generics
+| 
+|  SortedList.h | 58 +++++++++++++++++++++++++---------------------------------
+|  1 file changed, 25 insertions(+), 33 deletions(-)
+| 
+* commit c0943985d59cb4e9fa7ce8c1c29e97f82135155e
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Wed Jul 24 13:27:46 2024 +0300
+| 
+|     Generics
+| 
+|  SortedList.h | 137 ++++++++++++++++++++++++++++++++++++---------------------
+|  1 file changed, 86 insertions(+), 51 deletions(-)
+| 
+* commit 4a555b3d8ce52ebc7bcd884b7e109a86a4a0894f
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Jul 23 20:18:21 2024 +0300
+| 
+|     trying stuff
+| 
+|  SortedList.h    |   2 -
+|  SortedListOld.h | 293 ------------------------------------------------------
+|  2 files changed, 295 deletions(-)
+| 
+* commit d09e4e176fb30a185d5a00ab7a7eca55274c6154
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Jul 23 20:09:32 2024 +0300
+| 
+|     trying stuff
+| 
+|  SortedList.h | 65 ++++++++++++++++++++++++++++------------------------------
+|  1 file changed, 31 insertions(+), 34 deletions(-)
+| 
+* commit 461e964550861cd5552492e6ad3e2eb4ce82936c
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Jul 23 19:38:32 2024 +0300
+| 
+|     trying stuff
+| 
+|  SortedList.h | 69 ++++++++++++++++++++++++++++------------------------------
+|  1 file changed, 33 insertions(+), 36 deletions(-)
+| 
+* commit cad672eb18f2542fdcbb43aee244d6f32cc47b48
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Jul 23 18:59:35 2024 +0300
+| 
+|     trying stuff
+| 
+|  Person.h        |   2 +-
+|  SortedList.h    | 585 +++++++++++++++++++++---------------------------------
+|  SortedListOld.h | 293 +++++++++++++++++++++++++++
+|  3 files changed, 517 insertions(+), 363 deletions(-)
+| 
+* commit fa4b021c8fa0d92c09b3f81cc29eb06d0c72ab27
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Fri Jul 19 19:13:24 2024 +0300
+| 
+|     Delete SortedList.cpp
+| 
+|  SortedList.cpp | 144 -------------------------------------------------------
+|  1 file changed, 144 deletions(-)
+| 
+* commit cf53ad11f337c42263a0c4e3a981f2160bc7145c
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Fri Jul 19 14:04:27 2024 +0300
+| 
+|     trying stuff
+| 
+|  SortedList.h | 178 +++++++++++++++++++++++++++++++++++++++++++++------------
+|  1 file changed, 143 insertions(+), 35 deletions(-)
+| 
+* commit f8d58a3bb29f03d83d129cdc3f414c8d123b4294
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Fri Jul 19 00:59:55 2024 +0300
+| 
+|     trying stuff
+| 
+|  SortedList.h | 10 +++++++---
+|  1 file changed, 7 insertions(+), 3 deletions(-)
+| 
+* commit 65366ead7b448dd076dbf7b4704d2ecd2f08496c
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Fri Jul 19 00:57:40 2024 +0300
+| 
+|     trying stuff
+| 
+|  SortedList.h | 427 +++++++++++++++++++++++++++++++++++++--------------------
+|  1 file changed, 282 insertions(+), 145 deletions(-)
+| 
+* commit d63a3438482b2691c495cdd2a8af376ddc528c67
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Thu Jul 18 18:45:15 2024 +0300
+| 
+|     Ctor's for SortedList and Node
+| 
+|  SortedList.h | 61 ++++++++++++++++++++++++++++++++++++++++++++++++----------
+|  1 file changed, 51 insertions(+), 10 deletions(-)
+| 
+* commit 2e1fe29154d4940403b3f1d0256a095d95a5be08
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Thu Jul 18 15:18:10 2024 +0300
+| 
+|     working on Node for SortedList
+| 
+|  SortedList.cpp | 277 +++++++++++++++++++++++++++++--------------------------
+|  SortedList.h   | 188 ++++++++++++++++++++-----------------
+|  2 files changed, 248 insertions(+), 217 deletions(-)
+| 
+* commit 034eaad7302ee32eaf12d35c4452746bd383bc88
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Thu Jul 18 01:44:19 2024 +0300
+| 
+|     trying stuff
+| 
+|  SortedList.cpp | 133 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  SortedList.h   |  41 +++++++++++++----
+|  2 files changed, 165 insertions(+), 9 deletions(-)
+| 
+* commit 282947c5327dd97a768d2edd8f7645115031fb3c
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Wed Jul 17 23:32:28 2024 +0300
+| 
+|     working on Node for SortedList
+| 
+|  SortedList.cpp |  0
+|  SortedList.h   | 47 +++++++++++++++++++++++++++++------------------
+|  2 files changed, 29 insertions(+), 18 deletions(-)
+| 
+* commit ebb9fc09ff533a819b528f0a66d73a6fd453475b
+| Author: AdiHarif <adi.harif@campus.technion.ac.il>
+| Date:   Mon Jul 15 20:55:03 2024 +0300
+| 
+|     Adds supplied files
+| 
+|  Person.cpp           |  51 +++++
+|  Person.h             |  79 ++++++++
+|  SortedList.h         |  57 ++++++
+|  Task.cpp             |  83 ++++++++
+|  Task.h               | 115 +++++++++++
+|  TaskManager.h        |  75 +++++++
+|  main.cpp             | 531 +++++++++++++++++++++++++++++++++++++++++++++++++
+|  tests/test1.expected |   3 +
+|  tests/test2.expected |   3 +
+|  tests/test3.expected |  30 +++
+|  tests/test4.expected |   3 +
+|  tests/test5.expected |   3 +
+|  tests/test6.expected |  15 ++
+|  13 files changed, 1048 insertions(+)
+| 
+* commit 1d686955fb829e5ecd8af0a69edce35628cc5d8d
+  Author: AdiHarif <adi.harif@campus.technion.ac.il>
+  Date:   Mon Jul 15 20:53:59 2024 +0300
+  
+      Initial Commit - Adds README file
+  
+   README.md | 7 +++++++
+   1 file changed, 7 insertions(+)

@@ -1,0 +1,977 @@
+* commit 29b047abdcf15e504e50241318d5374b5c6adaa8
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Tue Aug 13 20:26:03 2024 +0300
+| 
+|     fix POTION CALCULATION
+| 
+|  Players/Character.cpp | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit 4f5a05fac1276bdbc032802eba4d0a300e403baa
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Tue Aug 13 20:19:37 2024 +0300
+| 
+|     fix player string handling errors
+| 
+|  Players/PlayerFactory.cpp | 14 ++++++++++----
+|  1 file changed, 10 insertions(+), 4 deletions(-)
+| 
+* commit dd10b8eac8f52e2e9349c9d86e3eda22001588a4
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Tue Aug 13 19:59:04 2024 +0300
+| 
+|     fix player string handling errors
+| 
+|  Players/PlayerFactory.cpp | 6 ++----
+|  1 file changed, 2 insertions(+), 4 deletions(-)
+| 
+* commit 5c79e1ef4e25760aee05e01f721d333bd7112f2f
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Tue Aug 13 19:54:02 2024 +0300
+| 
+|     adding handling of Packs not filling up
+| 
+|  Events/EventFactory.cpp | 1 +
+|  1 file changed, 1 insertion(+)
+| 
+* commit 553664fe3ec9651d7b314297aa2a144773b7a7f5
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Tue Aug 13 19:48:44 2024 +0300
+| 
+|     fix Lexicographical order
+| 
+|  MatamStory.cpp | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit afbac613abb892fe88ec2956545e136cdc76c9f2
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 13 19:15:41 2024 +0300
+| 
+|     added better file error handling
+| 
+|  MatamStory.cpp            |  9 +++++----
+|  Players/PlayerFactory.cpp | 15 ++++++++-------
+|  Players/PlayerFactory.h   |  3 +--
+|  3 files changed, 14 insertions(+), 13 deletions(-)
+| 
+* commit 64173a6924ab7027f9be2b4eacaa3703b99c6113
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 13 19:06:23 2024 +0300
+| 
+|     handling packSize < 1
+| 
+|  Events/EventFactory.cpp | 3 +++
+|  1 file changed, 3 insertions(+)
+| 
+* commit 84bd3ba493f0086878093c8517f5e12c76b9b3a4
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 10 04:50:17 2024 +0300
+| 
+|     adding log.txt
+| 
+|  log.txt | 903 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  1 file changed, 903 insertions(+)
+| 
+* commit ae5b275af79a4bca31b1278163f93b1090d844a6
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 10 04:47:10 2024 +0300
+| 
+|     updating pdf
+| 
+|  dry.pdf | Bin 901211 -> 425042 bytes
+|  1 file changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit eab119a5f836581f165ab89b134e9dd6b2d9d45f
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 10 04:40:38 2024 +0300
+| 
+|     adding dry.pdf
+| 
+|  dry.pdf | Bin 0 -> 901211 bytes
+|  1 file changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit abef12b9190e92401c397b90658733dd5a58de1c
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 10 04:24:54 2024 +0300
+| 
+|     adding comment
+| 
+|  MatamStory.h | 2 --
+|  1 file changed, 2 deletions(-)
+|   
+*   commit 323e17619a07d3d3742d9561a1c83545e0383212
+|\  Merge: 6ca8662 39d79cc
+| | Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| | Date:   Fri Aug 9 16:38:03 2024 +0300
+| | 
+| |     Merge branch 'main' of https://github.com/EitanX/Matam-HW4
+| | 
+| * commit 39d79cc458626584c648dd499bf527d82652e791
+| | Author: EitanX <eitan177771@gmail.com>
+| | Date:   Fri Aug 9 16:35:15 2024 +0300
+| | 
+| |     adding postFightEffect differentiation between win/lose event
+| | 
+| |  Players/Job.cpp | 4 +++-
+| |  Players/Job.h   | 1 -
+| |  2 files changed, 3 insertions(+), 2 deletions(-)
+| | 
+| * commit 540e440c8c6855055fab5ae0d01aadd2ff15af04
+| | Author: EitanX <eitan177771@gmail.com>
+| | Date:   Fri Aug 9 16:32:57 2024 +0300
+| | 
+| |     adding postFightEffect differentiation between win/lose event
+| | 
+| |  Events/Event.cpp | 4 +++-
+| |  Players/Job.cpp  | 6 +++---
+| |  Players/Job.h    | 8 ++++----
+| |  3 files changed, 10 insertions(+), 8 deletions(-)
+| | 
+| * commit 4722d7e065587552ee12869c710bc32d57ce5992
+| | Author: EitanX <eitan177771@gmail.com>
+| | Date:   Fri Aug 9 15:42:16 2024 +0300
+| | 
+| |     adding Documentation
+| | 
+| |  Events/Event.cpp          |  8 +++++++-
+| |  Events/EventFactory.cpp   |  7 ++++---
+| |  Events/Monster.cpp        |  7 +++++++
+| |  MatamStory.cpp            | 16 +++++++++-------
+| |  Players/Player.cpp        | 14 +++++++++++---
+| |  Players/Player.h          |  4 ++--
+| |  Players/PlayerFactory.cpp | 16 ++++++++--------
+| |  Players/PlayerFactory.h   |  2 +-
+| |  Players/PlayerStats.cpp   |  3 ++-
+| |  9 files changed, 51 insertions(+), 26 deletions(-)
+| | 
+* | commit 6ca866261d96df52e308996eb2ce7f84a2a70af4
+|/  Author: Eitan <67269901+EitanX@users.noreply.github.com>
+|   Date:   Fri Aug 9 16:29:33 2024 +0300
+|   
+|       correct #include
+|   
+|    Events/Event.cpp |  4 +++-
+|    Players/Job.cpp  | 12 +++++++-----
+|    Players/Job.h    |  8 ++++----
+|    3 files changed, 14 insertions(+), 10 deletions(-)
+| 
+* commit 825d7e7e52bb7c0a42445d6146d4b833c1461eff
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Fri Aug 9 00:57:23 2024 +0300
+| 
+|     align with expected output of num of pack members
+| 
+|  Events/Monster.cpp | 3 ++-
+|  1 file changed, 2 insertions(+), 1 deletion(-)
+| 
+* commit aa11756fea2c7ec956ea3f1df7d548e1eb59a117
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Thu Aug 8 11:37:47 2024 +0300
+| 
+|     Adding better case handling
+| 
+|  Events/EventFactory.cpp | 27 ++++++++-------------------
+|  1 file changed, 8 insertions(+), 19 deletions(-)
+| 
+* commit 392d0552762df5f4e0a5bb4d5fa46e85acb8ad78
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 22:23:05 2024 +0300
+| 
+|     support word-by-word parsing
+| 
+|  Events/EventFactory.cpp   | 20 +++++++++++++-------
+|  Events/EventFactory.h     |  4 ++--
+|  MatamStory.cpp            | 14 ++++++--------
+|  Players/PlayerFactory.cpp | 42 ++++++------------------------------------
+|  Players/PlayerFactory.h   |  3 ++-
+|  5 files changed, 29 insertions(+), 54 deletions(-)
+| 
+* commit a22db8eccadec025bf8b31fab994f21544b4f845
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Tue Aug 6 21:59:58 2024 +0300
+| 
+|     correct #include
+| 
+|  Events/Event.cpp | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 6fa0028c70b18d7d2502dedc49d90d26b9856baa
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Tue Aug 6 21:59:45 2024 +0300
+| 
+|     unsigned int & int equality
+| 
+|  Players/PlayerStats.cpp | 3 ++-
+|  1 file changed, 2 insertions(+), 1 deletion(-)
+| 
+* commit 5c6a36b5af793b6854a9d2b6366ed843f480bd70
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 21:41:55 2024 +0300
+| 
+|     fix HP evaluation
+| 
+|  Players/Player.cpp      |  7 -------
+|  Players/PlayerStats.cpp | 17 ++++++++++-------
+|  Players/PlayerStats.h   | 10 +++++-----
+|  3 files changed, 15 insertions(+), 19 deletions(-)
+| 
+* commit f2b159b84bcbfe47c85f34a06bf5a6cbb9d6e4f7
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 21:41:38 2024 +0300
+| 
+|     better postFightLogic
+| 
+|  Events/Event.cpp | 5 ++---
+|  1 file changed, 2 insertions(+), 3 deletions(-)
+| 
+* commit d61d1899797e22a52f44bf5134b2c2dcd8efecc7
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 21:24:34 2024 +0300
+| 
+|     monster postFightEffect
+| 
+|  Events/Event.cpp | 13 +++++++------
+|  1 file changed, 7 insertions(+), 6 deletions(-)
+|   
+| * commit 286f29080be17437f4b0ac9ec9911f68fce7e550
+|/| Merge: 86283ee 7c23aff
+| | Author: EitanX <eitan177771@gmail.com>
+| | Date:   Tue Aug 6 21:19:05 2024 +0300
+| | 
+| |     WIP on main: 86283ee Balrog not Barlog
+| | 
+| * commit 7c23aff07563e5c95b04d0ae6805a34dd7497ebe
+|/  Author: EitanX <eitan177771@gmail.com>
+|   Date:   Tue Aug 6 21:19:05 2024 +0300
+|   
+|       index on main: 86283ee Balrog not Barlog
+| 
+* commit 86283eea3ff796edce18634bdf753d21cafb2744
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 20:35:12 2024 +0300
+| 
+|     Balrog not Barlog
+| 
+|  Events/EventFactory.cpp |  8 ++++----
+|  Events/Monster.cpp      | 16 ++++++++--------
+|  Events/Monster.h        |  2 +-
+|  3 files changed, 13 insertions(+), 13 deletions(-)
+| 
+* commit e9c3d5dbb10b73f00dd75e16c367b3058ea52326
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 20:34:56 2024 +0300
+| 
+|     negative hp bug fix + adding fainted
+| 
+|  Players/Player.cpp      | 16 +++++++++++++---
+|  Players/Player.h        |  7 ++++---
+|  Players/PlayerStats.cpp |  3 +++
+|  Players/PlayerStats.h   |  1 +
+|  4 files changed, 21 insertions(+), 6 deletions(-)
+| 
+* commit 68626d5c58d8d5e3e72e532b18be134e562b7987
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 20:34:10 2024 +0300
+| 
+|     fix condition bug > instead of ==
+| 
+|  MatamStory.cpp | 5 ++---
+|  1 file changed, 2 insertions(+), 3 deletions(-)
+| 
+* commit cb7a4876a27285c579766adfcecb57f6bf260a6f
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 20:33:38 2024 +0300
+| 
+|     adding update description - balrog case...
+| 
+|  Events/Event.cpp | 32 +++++++++++++++++++-------------
+|  Events/Event.h   |  1 +
+|  2 files changed, 20 insertions(+), 13 deletions(-)
+| 
+* commit 9404670ac74682882b4a346272501d2be86fd1b4
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 19:10:07 2024 +0300
+| 
+|     negative coins error
+| 
+|  Players/PlayerStats.cpp | 1 +
+|  1 file changed, 1 insertion(+)
+| 
+* commit 7ef8a2d485bc43c04183b088526688a3cf41a524
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 19:07:25 2024 +0300
+| 
+|     type safety
+| 
+|  Events/Event.cpp | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 661e852a823aa8eeecf869c7cf093aacbdc1675e
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 19:01:17 2024 +0300
+| 
+|     adding #include
+| 
+|  MatamStory.cpp | 6 +++---
+|  1 file changed, 3 insertions(+), 3 deletions(-)
+| 
+* commit 943993d2d94f72695a46969c5c59603be2457aba
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 19:00:48 2024 +0300
+| 
+|     abstract virtual + virtual d'tor
+| 
+|  Events/Event.h        |  2 ++
+|  Events/Monster.cpp    | 77 +++++++++++++++++++++++++++++++++++++------------
+|  Events/Monster.h      | 62 ++++++++++++++++++++++++---------------
+|  Players/Character.cpp |  9 +++---
+|  Players/Character.h   | 10 +++----
+|  Players/Job.cpp       | 34 +++++++++++-----------
+|  Players/Job.h         | 21 ++++++++++----
+|  7 files changed, 141 insertions(+), 74 deletions(-)
+| 
+* commit ab2c23e354382390b1bcec3ab764ab99e0e7e45a
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 19:00:07 2024 +0300
+| 
+|     move to unique_ptr
+| 
+|  Players/Player.cpp | 10 ++++++----
+|  1 file changed, 6 insertions(+), 4 deletions(-)
+| 
+* commit 3c3593d4718da3b087598dd43c55b929dad87945
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 19:00:04 2024 +0300
+| 
+|     move to unique_ptr
+| 
+|  Players/Player.h | 12 ++++++------
+|  1 file changed, 6 insertions(+), 6 deletions(-)
+| 
+* commit 52f6c60b928e1f4daaa09b34b32595927336d31f
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 19:00:01 2024 +0300
+| 
+|     move to unique_ptr
+| 
+|  Players/PlayerFactory.cpp | 39 ++++++++++++++++++++++-----------------
+|  Players/PlayerFactory.h   |  8 ++++----
+|  2 files changed, 26 insertions(+), 21 deletions(-)
+| 
+* commit 9effaf0c814996560be1340561d9eb1c29e61194
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 12:16:20 2024 +0300
+| 
+|     adding methods
+| 
+|  MatamStory.cpp | 84 +++++++++++++++++++++++++-------------------------------
+|  MatamStory.h   |  3 +-
+|  2 files changed, 38 insertions(+), 49 deletions(-)
+| 
+* commit 2c7695d43501c201634962ebce77e9d83bde7505
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 12:16:11 2024 +0300
+| 
+|     Player isFainted get/set
+| 
+|  Players/Player.cpp      | 3 +++
+|  Players/Player.h        | 5 +----
+|  Players/PlayerStats.cpp | 3 +++
+|  Players/PlayerStats.h   | 1 +
+|  4 files changed, 8 insertions(+), 4 deletions(-)
+| 
+* commit 7efe39cd759598100288f204f4ea9efaacd227bb
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 11:20:11 2024 +0300
+| 
+|     Adding printScoreboard
+| 
+|  MatamStory.cpp | 35 ++++++++++++++++++++++++++++++++---
+|  MatamStory.h   | 13 ++++++++-----
+|  2 files changed, 40 insertions(+), 8 deletions(-)
+| 
+* commit de947cb89e3813268ea6a3124164bc33c090e843
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 01:17:29 2024 +0300
+| 
+|     adding implementations
+| 
+|  MatamStory.cpp | 43 ++++++++++++++++---------------------------
+|  MatamStory.h   |  4 ++--
+|  2 files changed, 18 insertions(+), 29 deletions(-)
+| 
+* commit e35fcdfa0d1769407202dfb3d600c9691ad1c91d
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 01:10:12 2024 +0300
+| 
+|     Work with PlayerStats
+| 
+|  Players/PlayerFactory.cpp | 39 +++++++++++++++++++++++++++++++++------
+|  1 file changed, 33 insertions(+), 6 deletions(-)
+| 
+* commit db0d2dd6b23a383776ef4968b0956defc800a293
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 01:09:59 2024 +0300
+| 
+|     Work with PlayerStats
+| 
+|  Events/Event.cpp        | 73 ++++++++++++++++++++++++++++-------------------
+|  Events/Event.h          | 26 +++++++++--------
+|  Players/Character.cpp   | 23 ++++++---------
+|  Players/Character.h     | 13 ++++++---
+|  Players/Job.cpp         | 24 ++++++----------
+|  Players/Job.h           | 19 ++++--------
+|  Players/PlayerFactory.h |  2 ++
+|  7 files changed, 92 insertions(+), 88 deletions(-)
+| 
+* commit b2da405c8fb10a7e2de23b95e76e401030f2e88d
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Tue Aug 6 01:09:39 2024 +0300
+| 
+|     devide Player to hold PlayerStats
+| 
+|  Players/Player.cpp      | 78 +++++++++++++++++++++++------------------------
+|  Players/Player.h        | 23 ++++++--------
+|  Players/PlayerStats.cpp | 60 ++++++++++++++++++++++++++++++++++++
+|  Players/PlayerStats.h   | 33 ++++++++++++++++++++
+|  4 files changed, 141 insertions(+), 53 deletions(-)
+| 
+* commit 99f286508466a79cf78352495888894566588df0
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 19:55:36 2024 +0300
+| 
+|     event won/lost
+| 
+|  Events/Event.cpp | 8 ++++----
+|  Events/Event.h   | 4 ++--
+|  2 files changed, 6 insertions(+), 6 deletions(-)
+| 
+* commit 404c20a9525ba645131268a9c80177fcb9d8ceb1
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 19:54:14 2024 +0300
+| 
+|     Player implementation of methods
+| 
+|  Players/Player.cpp | 35 ++++++++++++++++++++++++++++++++---
+|  Players/Player.h   |  9 ++++-----
+|  2 files changed, 36 insertions(+), 8 deletions(-)
+| 
+* commit 0157681144c872f194e683620a0c6aedd6d2c88a
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 19:53:50 2024 +0300
+| 
+|     remove singleton - not compatible to main()
+| 
+|  MatamStory.cpp | 36 ++++++++++++++++++++++++++----------
+|  MatamStory.h   | 20 ++++++++++----------
+|  2 files changed, 36 insertions(+), 20 deletions(-)
+| 
+* commit a754693baf4f95f4524e71bec6bbf0145081dc37
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 19:53:31 2024 +0300
+| 
+|     Character description use
+| 
+|  Players/Character.cpp | 16 ++++++++++++----
+|  Players/Character.h   |  9 ++++++---
+|  2 files changed, 18 insertions(+), 7 deletions(-)
+| 
+* commit 7a84365ef0a9d9f227b18785d9eff100377df72a
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 19:53:16 2024 +0300
+| 
+|     virtual playEvent logic
+| 
+|  Events/Event.cpp | 25 ++++++++++++++++++++++++-
+|  Events/Event.h   | 11 ++++++++---
+|  2 files changed, 32 insertions(+), 4 deletions(-)
+| 
+* commit de959fb223156ce1cd164655f2a2f89a4fd3556b
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 19:52:59 2024 +0300
+| 
+|     more virtualization
+| 
+|  Players/Job.cpp | 19 ++++++++++++++-----
+|  Players/Job.h   | 13 ++++++-------
+|  2 files changed, 20 insertions(+), 12 deletions(-)
+| 
+* commit a337af3d0652c9d1ab6e9fbfb754a95de1c03d99
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 16:20:25 2024 +0300
+| 
+|     Player partial method implementation
+| 
+|  Players/Player.cpp | 40 ++++++++++++++++++++++++++++++++++++++++
+|  Players/Player.h   | 21 ++++++++++-----------
+|  2 files changed, 50 insertions(+), 11 deletions(-)
+| 
+* commit 3ebc3869d43ddd3e77b23e2588fa674b93786ed2
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 16:19:54 2024 +0300
+| 
+|     initPerks minor change
+| 
+|  Players/Job.cpp           | 16 ++++++++--------
+|  Players/Job.h             |  8 +++++---
+|  Players/PlayerFactory.cpp |  2 +-
+|  3 files changed, 14 insertions(+), 12 deletions(-)
+| 
+* commit 2d2f5699fba4690e280d5f6ef90055de6b989ccb
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 15:51:01 2024 +0300
+| 
+|     adding Player.cpp
+| 
+|  Players/Player.cpp | 6 ++++++
+|  1 file changed, 6 insertions(+)
+| 
+* commit ce5f5acb79ce6d9044b2fac790e75373dd63bf8e
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 15:50:52 2024 +0300
+| 
+|     CS234124 bug fix
+| 
+|  Utilities.cpp       | 6 +++---
+|  tests/test1.events  | 8 ++++----
+|  tests/test1.players | 4 ++--
+|  tests/test2.events  | 6 +++---
+|  tests/test2.players | 4 ++--
+|  tests/test3.events  | 8 ++++----
+|  tests/test3.players | 2 +-
+|  7 files changed, 19 insertions(+), 19 deletions(-)
+| 
+* commit 8918dd8a448fe57e13ad5942e214d2f03fd475d1
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 04:55:50 2024 +0300
+| 
+|     syntax
+| 
+|  Players/Character.h | 1 -
+|  1 file changed, 1 deletion(-)
+| 
+* commit e2c55ce5c58a3ccf53ea36a5cb958d43feb573c1
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 04:55:32 2024 +0300
+| 
+|     #includes
+| 
+|  Events/Event.cpp | 1 -
+|  Events/Event.h   | 1 -
+|  2 files changed, 2 deletions(-)
+| 
+* commit ce3cda0b048236fe17a1b941dd6e7f6342f13102
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 04:53:09 2024 +0300
+| 
+|     Fix min/max players handling
+| 
+|  MatamStory.cpp            |  7 ++++++-
+|  Players/PlayerFactory.cpp | 12 ++++++------
+|  Players/PlayerFactory.h   |  3 ++-
+|  3 files changed, 14 insertions(+), 8 deletions(-)
+| 
+* commit a57404ca7be4ad7b3d43c8366dd31546715e4235
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 04:49:04 2024 +0300
+| 
+|     Player holding smartPointer
+| 
+|  Players/Player.h | 19 +++++++++++++------
+|  1 file changed, 13 insertions(+), 6 deletions(-)
+| 
+* commit c389a0e38b71f5730808ce5115703a1cc0e9ddb5
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 04:47:48 2024 +0300
+| 
+|     Job logic
+| 
+|  Players/Job.cpp | 38 ++++++++++++++++++++++++++++++++++++++
+|  Players/Job.h   | 33 +++++++++++++++++----------------
+|  2 files changed, 55 insertions(+), 16 deletions(-)
+| 
+* commit 604fa73cd2614e481e7f797d5b7e87ace898c5a1
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 03:33:55 2024 +0300
+| 
+|     added Character amountOfPotions decision making
+| 
+|  Events/Event.cpp      |  3 ++-
+|  Players/Character.cpp | 33 +++++++++++++++++++++++++++++++++
+|  Players/Character.h   |  6 +++---
+|  3 files changed, 38 insertions(+), 4 deletions(-)
+| 
+* commit 01dd4e827142b7d848ac7982d740d565d5fba3f3
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 03:33:27 2024 +0300
+| 
+|     fix #include
+| 
+|  Events/EventFactory.cpp   |  6 +++---
+|  Events/EventFactory.h     |  6 +++---
+|  MatamStory.cpp            |  4 ++++
+|  Players/PlayerFactory.cpp | 10 +++++-----
+|  Players/PlayerFactory.h   |  8 ++++----
+|  5 files changed, 19 insertions(+), 15 deletions(-)
+| 
+* commit 229d48628e97122b0d15929f3ab42562c268e656
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 03:32:55 2024 +0300
+| 
+|     Player methods marked const
+| 
+|  Players/Player.h | 5 +++--
+|  1 file changed, 3 insertions(+), 2 deletions(-)
+| 
+* commit 04acf7b72f10290fca924b5c342d035481be53fd
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 03:18:48 2024 +0300
+| 
+|     Functions logic of Events
+| 
+|  Events/Event.cpp | 57 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  1 file changed, 57 insertions(+)
+| 
+* commit cb451039d26957dbd42051c67c258eb8087c8d8d
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 03:18:18 2024 +0300
+| 
+|     adding Event description
+| 
+|  Events/Event.h | 18 ++++++++++--------
+|  1 file changed, 10 insertions(+), 8 deletions(-)
+| 
+* commit 8e7d68f9afe588ee7580065688d42663ff38b717
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 03:17:22 2024 +0300
+| 
+|     added Monster sizeOfPack
+| 
+|  Events/Monster.cpp | 8 +++++++-
+|  Events/Monster.h   | 9 +++++++--
+|  2 files changed, 14 insertions(+), 3 deletions(-)
+| 
+* commit 9d48fe518d34d187be1ef997a9aa2943848fad6d
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 03:16:48 2024 +0300
+| 
+|     better function naming
+| 
+|  Players/PlayerFactory.cpp | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 1e322775c4f4edc6546e6e1e5f3d8f9988bffc81
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 03:16:34 2024 +0300
+| 
+|     adding player methods
+| 
+|  Players/Player.h | 9 ++++++---
+|  1 file changed, 6 insertions(+), 3 deletions(-)
+| 
+* commit 6f911a662d3411d8543818f5221f4f60ce701457
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 03:16:14 2024 +0300
+| 
+|     better method naming
+| 
+|  Players/Job.h | 16 ++++++++--------
+|  1 file changed, 8 insertions(+), 8 deletions(-)
+| 
+* commit 32077872731fdd833053bff6b98bf530b4467b8b
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 03:15:58 2024 +0300
+| 
+|     adding throw error
+| 
+|  Events/EventFactory.cpp | 2 ++
+|  1 file changed, 2 insertions(+)
+| 
+* commit effaa9a22c6397126b63ddb689f530989b8e3224
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 01:54:41 2024 +0300
+| 
+|     EventFactory
+| 
+|  Events/EventFactory.cpp | 62 +++++++++++++++++++++++++++++++++++++++++++++++
+|  Events/EventFactory.h   | 13 ++++++++++
+|  2 files changed, 75 insertions(+)
+| 
+* commit 3dfdf62190391daa4f1cf58109f7e2a916538dd8
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 01:54:31 2024 +0300
+| 
+|     PlayerFactory
+| 
+|  Players/PlayerFactory.cpp | 63 +++++++++++++++++++++++++++++++++++++++++++++
+|  Players/PlayerFactory.h   | 17 ++++++++++++
+|  2 files changed, 80 insertions(+)
+| 
+* commit e9fd5575e4a2bbbae78a1e9f864622b3e12a72d4
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 01:54:23 2024 +0300
+| 
+|     MatamStory Events & Players initialization
+| 
+|  MatamStory.cpp | 84 +++++++++++++++-----------------------------------------
+|  MatamStory.h   |  2 --
+|  2 files changed, 22 insertions(+), 64 deletions(-)
+| 
+* commit 2fdee8913b1e02a17bff4272b15fc919e21484b7
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 01:53:46 2024 +0300
+| 
+|     Monster d'tor = default cuz smart pointers
+| 
+|  Events/Monster.cpp | 9 ++-------
+|  1 file changed, 2 insertions(+), 7 deletions(-)
+| 
+* commit 6af775a6a2388ceb3ecf3a356bfe050e95e09ef3
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 01:53:34 2024 +0300
+| 
+|     Monster d'tor = default cuz smart pointers
+| 
+|  Events/Monster.h | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit d7737e0aad55f74cf6149b9a8db9107bd165dbfc
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 01:52:34 2024 +0300
+| 
+|     Class Player construction with perks
+| 
+|  Players/Player.h | 12 +++++++++++-
+|  1 file changed, 11 insertions(+), 1 deletion(-)
+| 
+* commit 5d5a051203400ab08adc8ea959e2a8054406efdc
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Mon Aug 5 01:51:51 2024 +0300
+| 
+|     Jobs now can applyPerks using PlayerFactory
+| 
+|  Players/Job.h | 22 ++++++++++++++++++----
+|  1 file changed, 18 insertions(+), 4 deletions(-)
+| 
+* commit e4e9e43b01f54b742a6499a048ef44831b9a2df0
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sun Aug 4 20:29:23 2024 +0300
+| 
+|     fix player c'tor with name
+| 
+|  Players/Player.h | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit f7dcc87348579e9fdf38cbec7fa81b8f44777b8f
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sun Aug 4 20:29:09 2024 +0300
+| 
+|     reads Events + Players
+| 
+|  Events/Event.h     |  6 +++-
+|  Events/Monster.cpp |  7 ++--
+|  Events/Monster.h   |  4 +--
+|  MatamStory.cpp     | 92 ++++++++++++++++++++++++++++++++++++++++++++++------
+|  MatamStory.h       | 11 ++++---
+|  5 files changed, 99 insertions(+), 21 deletions(-)
+| 
+* commit 8699b78b84ed54babbfa47e42effa944b8c57320
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sun Aug 4 16:48:17 2024 +0300
+| 
+|     Monster C'tor
+| 
+|  Events/Monster.cpp | 4 ++--
+|  Events/Monster.h   | 4 ++--
+|  2 files changed, 4 insertions(+), 4 deletions(-)
+| 
+* commit c67c53708fff4c9164d51b489801b33d0dae9051
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sun Aug 4 15:31:06 2024 +0300
+| 
+|     Monster C'tor
+| 
+|  Events/Monster.cpp | 5 ++++-
+|  1 file changed, 4 insertions(+), 1 deletion(-)
+| 
+* commit 07808658603e3e3f6b8418f4d7b83afc6f1b2cdb
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sun Aug 4 15:17:51 2024 +0300
+| 
+|     Monster C'tor
+| 
+|  Events/Monster.cpp | 68 +++++++++++++---------------------------------------
+|  Events/Monster.h   | 35 ++++++++++-----------------
+|  2 files changed, 29 insertions(+), 74 deletions(-)
+| 
+* commit 2d520b4e4b4fdd30178f51cf1d7b1a65b212a829
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Sat Aug 3 21:03:14 2024 +0300
+| 
+|     Update Monster.cpp
+|     
+|     Update Pack constructor
+| 
+|  Events/Monster.cpp | 18 ++++--------------
+|  1 file changed, 4 insertions(+), 14 deletions(-)
+| 
+* commit 014ca6f97a06ca0a73b1f360dc47e5bc6b4f13c5
+| Author: Eitan <67269901+EitanX@users.noreply.github.com>
+| Date:   Sat Aug 3 21:01:41 2024 +0300
+| 
+|     Update Monster.h
+|     
+|     update Pack constructor
+| 
+|  Events/Monster.h | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 1e5e5ff3501675a05d53a177d2e75a84a2589900
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 3 20:16:20 2024 +0300
+| 
+|     Monster Implementation
+| 
+|  Events/Monster.cpp | 109 +++++++++++++++++++++++++++++++++++++++++++++++++++
+|  Events/Monster.h   |  48 ++++++++++++++---------
+|  2 files changed, 138 insertions(+), 19 deletions(-)
+| 
+* commit e856b22e04341be3b324a88522a24c7ecb23098d
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 3 19:05:08 2024 +0300
+| 
+|     fill methods in .h files
+| 
+|  Events/Event.h      | 20 +++++++-------------
+|  Events/Monster.h    | 25 ++++++++++++++++++-------
+|  Players/Character.h | 16 +++-------------
+|  Players/Job.h       |  8 --------
+|  Players/Player.h    |  7 +++----
+|  5 files changed, 31 insertions(+), 45 deletions(-)
+| 
+* commit e89f35472a19b8fd4083c8420d72c26284ff14a2
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 3 16:59:48 2024 +0300
+| 
+|     Monster.h
+| 
+|  Events/Monster.h | 49 +++++++++++++++++++++++++++++++++++++++++++++++++
+|  1 file changed, 49 insertions(+)
+| 
+* commit f5afd76c6fe1ec09b82fe1bb62bb02f412929d4d
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 3 16:59:37 2024 +0300
+| 
+|     Event.h
+| 
+|  Events/Event.h | 39 ++++++++++++++++++++++++++++++++++++++-
+|  1 file changed, 38 insertions(+), 1 deletion(-)
+| 
+* commit 9f1a58dd132c7b14428b4637238d8d7095a2ecf7
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 3 16:29:37 2024 +0300
+| 
+|     include Events
+| 
+|  Players/Player.h | 11 ++++++-----
+|  1 file changed, 6 insertions(+), 5 deletions(-)
+| 
+* commit 4040297886b9fe662716298609a83a03f58dd876
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 3 16:29:25 2024 +0300
+| 
+|     Character.h
+| 
+|  Players/Character.h | 20 +++++++++++++++++++-
+|  1 file changed, 19 insertions(+), 1 deletion(-)
+| 
+* commit e05c6340d50ecbe0176868dbf778835ca177fe3b
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 3 16:29:18 2024 +0300
+| 
+|     Job.h
+| 
+|  Players/Job.h | 8 ++++++++
+|  1 file changed, 8 insertions(+)
+| 
+* commit 227f0548cba5a3271a0fd8c81deb086ea518e318
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 3 16:03:00 2024 +0300
+| 
+|     Job.h
+| 
+|  Players/Job.h | 22 ++++++++++++++++++++++
+|  1 file changed, 22 insertions(+)
+| 
+* commit 03c0a8f4827b7407b125aa1dfc20de7a037c79d4
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 3 16:02:44 2024 +0300
+| 
+|     Character.h
+| 
+|  Players/Character.h | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit b52ab11609deffa669271ef22a8d6f8e2cdd0d28
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 3 15:51:45 2024 +0300
+| 
+|     MatamStory.(h/cpp)
+| 
+|  MatamStory.cpp | 6 +++---
+|  MatamStory.h   | 6 +++---
+|  2 files changed, 6 insertions(+), 6 deletions(-)
+| 
+* commit e8af8be38ff76a29a18478d3082ace3244b70c1c
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 3 15:44:45 2024 +0300
+| 
+|     MatamStory.(h/cpp)
+| 
+|  Players/Character.h | 13 +++++++++++++
+|  Players/Job.h       | 13 +++++++++++++
+|  Players/Player.h    | 11 +++++++++++
+|  3 files changed, 37 insertions(+)
+| 
+* commit fcd5a80c81f1a0d7c1c3b05d7537cf927c84c0df
+| Author: EitanX <eitan177771@gmail.com>
+| Date:   Sat Aug 3 15:36:11 2024 +0300
+| 
+|     MatamStory.(h/cpp)
+| 
+|  MatamStory.cpp | 12 ++++++++++++
+|  MatamStory.h   | 16 ++++++++++++----
+|  2 files changed, 24 insertions(+), 4 deletions(-)
+| 
+* commit 6d0b58bcecef6fc2291c09f654a978cc382c3e31
+| Author: AdiHarif <adi.harif@campus.technion.ac.il>
+| Date:   Mon Jul 29 21:47:45 2024 +0300
+| 
+|     Adds supplied files
+| 
+|  Events/Event.h       |  14 +++++
+|  MatamStory.cpp       |  74 +++++++++++++++++++++++++
+|  MatamStory.h         |  55 +++++++++++++++++++
+|  Players/Player.h     |  51 +++++++++++++++++
+|  Utilities.cpp        | 117 +++++++++++++++++++++++++++++++++++++++
+|  Utilities.h          | 146 +++++++++++++++++++++++++++++++++++++++++++++++++
+|  main.cpp             |  40 ++++++++++++++
+|  tests/test1.events   |   5 ++
+|  tests/test1.expected |  96 ++++++++++++++++++++++++++++++++
+|  tests/test1.players  |   3 +
+|  tests/test2.events   |   4 ++
+|  tests/test2.expected |   1 +
+|  tests/test2.players  |   3 +
+|  tests/test3.events   |   5 ++
+|  tests/test3.expected |   1 +
+|  tests/test3.players  |   2 +
+|  16 files changed, 617 insertions(+)
+| 
+* commit beadb33ed4c7dd2da9d4078b9de6253232c67a46
+  Author: AdiHarif <adi.harif@campus.technion.ac.il>
+  Date:   Mon Jul 29 21:46:59 2024 +0300
+  
+      Initial Commit - Adds README.md file
+  
+   README.md | 7 +++++++
+   1 file changed, 7 insertions(+)
